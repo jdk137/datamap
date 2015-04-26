@@ -1,0 +1,179 @@
+body {
+position: relative;
+padding-top: 60px;
+}
+h1 {
+font-size: 2.6em;
+}
+footer {
+margin-top:1em;
+}
+cite {font-style:italic;}
+
+.spacer5 {clear:both;height:5px;}
+.centered {text-align:center;}
+.clearfix {clear:both;}
+
+/* navbar */
+#navbar .btn-group {
+margin:5px;
+}
+#navbar .btn {
+padding: 4px 12px;
+font-size:18px;
+}
+#navbar .nav .typeahead {
+margin:.4em 0 0 0;
+width: 400px;
+}
+#navbar .number-word {
+color: #fff;
+margin-left: 2px;
+}
+#navbar .data-number {
+display: inline-block;
+margin-top: 5px;
+width: 60px;
+}
+#navbar .show-lines {
+display: inline-block;
+margin-top: -5px;
+margin-left: 10px;
+}
+#navbar .show-lines-word {
+display: inline-block;
+padding-top: 10px;
+color: #fff;
+}
+
+
+#navbar .share .btn {
+margin:.3em .5em .3em;
+font-size:1.2em;
+}
+.caret {
+opacity:.8;
+}
+.small {
+font-size:.85em;
+}
+.tags span {
+padding:.4em;
+margin-bottom:.5em;
+font-size:1.1em;7
+}
+.tags a {
+color:#fff;
+}
+#site-name {
+padding-left:40px;
+font-size:1.6em;
+font-family:Impact, fantasy;
+color:#8ce;
+margin-left:0;
+}
+body.full #navbar .navbar-inner {
+padding:0 10px;
+}
+/* wrappers */
+#footer, #comments {
+border-top:2px solid #EAEEF0;
+}
+#comments {
+padding-top:10px;
+}
+body.full #footer {display:none;}
+
+.modal-large {
+width:76%;
+margin-left:-38%;
+}
+/* share menu to the left */
+#sharemenu .dropdown-menu {
+right:0;
+left:auto;
+}
+/* newsletter */
+#mce-EMAIL {
+width:90%;
+}
+/* front gallery */
+.span4 h5 {
+height: 1.4em;
+overflow: hidden;
+}
+/* info pages */
+.vis-preview {
+margin-bottom:1em;
+}
+
+
+
+
+
+
+body {
+background:#222;
+padding-top:41px;
+}
+#vis {
+height:600px;
+}
+.sigma-parent {
+position:relative;
+background:#222;
+}
+.sigma-expand {
+position:absolute;
+width:100%;
+height:100%;
+top:0;
+left:0;
+overflow: hidden;
+}
+#showlang {
+left:37%;
+width:70%;
+}
+.ad h3 {
+font-size:1.2em;
+margin:-.5em 0 0 0;
+}
+#search-reset{
+position: absolute;
+top: 1em;
+cursor:pointer;
+opacity:.8;
+background: url('../images/dataMapClose.png') no-repeat center left;
+margin-top: -3px;
+margin-left: -17px;
+padding-left: 14px;
+}
+
+#data-map-search{
+position: absolute;
+top: 1em;
+cursor:pointer;
+opacity:.8;
+background: url('../images/searchIcon.png') no-repeat center center;
+background-color: #626e80;
+margin-left: 10px;
+margin-top: -8px;
+width: 60px;
+padding-top: 12px;
+border-radius: 3px;
+}
+
+#loading {
+position:absolute;
+left:30%;
+top:25%;
+width:40%;
+color:#fff;
+font-size:2em;
+display:none;
+}
+
+
+
+

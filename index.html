@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)http://meta.alibaba-inc.com/dataMap?spm=0.0.0.0.NKX2Eg -->
+<html class="x-strict"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="Cache-Control" content="max-age=3600">
+    <meta charset="utf-8">
+    <title>数据地图</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="./数据地图_files/css/bootstrap.css" rel="stylesheet">
+    <link href="./数据地图_files/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="./数据地图_files/css/style.css" rel="stylesheet">
+<script type="text/javascript" async="" src="./数据地图_files/saved_resource"></script><script type="text/javascript" async="" src="./数据地图_files/index.js"></script></head>
+<body class="full x-body x-webkit x-chrome x-mac" id="ext-gen1018"><script id="tb-beacon-aplus" src="./数据地图_files/aplus_v2.js" exparams="category=&amp;userid=&amp;aplus&amp;yunid="></script><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=",id="tb-beacon-aplus",src=(location>"https"?"//s":"//a")+".tbcdn.cn/s/aplus_v2.js")
+</script>
+
+
+<div id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <a id="site-name" class="brand" href="http://meta.alibaba-inc.com/">数据地图</a>
+    <div class="nav-collapse">
+
+      <ul class="nav">
+        <li><input value="" class="typeahead" data-provide="typeahead" placeholder="搜数据、搜关系、一站式搜索" type="text"><i id="search-reset">&nbsp;</i></li>
+      </ul>
+
+      <span class="number-word">数据表数：</span>
+      <input value="30000" class="data-number" placeholder="30000" type="text">
+
+      <input type="checkbox" class="show-lines" checked="checked">
+      <span class="show-lines-word">显示血缘 </span>
+
+      <i id="data-map-search">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>
+
+    </div>
+  </div>
+</div>
+    
+<div id="vis" class="sigma-parent">
+    <div id="loading" style="display: none;">数据载入中...</div>
+    <div id="sig" class="sigma-expand" style="height: 637px;"><canvas id="sigma_edges_1" class="sigma_edges_canvas" width="1270px" height="637px" style="position: absolute;"></canvas><canvas id="sigma_nodes_1" class="sigma_nodes_canvas" width="1270px" height="637px" style="position: absolute;"></canvas><canvas id="sigma_labels_1" class="sigma_labels_canvas" width="1270px" height="637px" style="position: absolute;"></canvas><canvas id="sigma_hover_1" class="sigma_hover_canvas" width="1270px" height="637px" style="position: absolute;"></canvas><div id="sigma_monitor_1" class="sigma_monitor_div" width="1270px" height="637px" style="position: absolute;"></div><canvas id="sigma_mouse_1" class="sigma_mouse_canvas" width="1270px" height="637px" style="position: absolute;"></canvas></div>
+    <div id="legend" style="position: absolute; top: 157px; right: 15px; opacity: 0.75; border: 1px solid rgb(51, 51, 51); border-radius: 15px; padding: 10px; margin: 5px; z-index: 500;"><p style="line-height: 50%; cursor: pointer;"><span style="display: inline-block; margin-right: 4px; width: 12px; padding-top: 3px; background-color: #cbe0e9;">&nbsp;</span><span class="bu-name" style="color: #ccc;">淘宝</span></p><p style="line-height: 50%; cursor: pointer;"><span style="display: inline-block; margin-right: 4px; width: 12px; padding-top: 3px; background-color: #4572a7;">&nbsp;</span><span class="bu-name" style="color: #ccc;">未找到业务线</span></p><p style="line-height: 50%; cursor: pointer;"><span style="display: inline-block; margin-right: 4px; width: 12px; padding-top: 3px; background-color: #d5cfdd;">&nbsp;</span><span class="bu-name" style="color: #ccc;">集团-人力资源部</span></p><p style="line-height: 50%; cursor: pointer;"><span style="display: inline-block; margin-right: 4px; width: 12px; padding-top: 3px; background-color: #4198af;">&nbsp;</span><span class="bu-name" style="color: #ccc;">无线事业部</span></p><p style="line-height: 50%; cursor: pointer;"><span style="display: inline-block; margin-right: 4px; width: 12px; padding-top: 3px; background-color: #a99bbd;">&nbsp;</span><span class="bu-name" style="color: #ccc;">安全部</span></p><p style="line-height: 50%; cursor: pointer;"><span style="display: inline-block; margin-right: 4px; width: 12px; padding-top: 3px; background-color: #dbe5cd;">&nbsp;</span><span class="bu-name" style="color: #ccc;">淘宝行业运营事业部</span></p><p style="line-height: 50%; cursor: pointer;"><span style="display: inline-block; margin-right: 4px; width: 12px; padding-top: 3px; background-color: #e7cccc;">&nbsp;</span><span class="bu-name" style="color: #ccc;">财务部</span></p><p style="line-height: 50%; cursor: pointer;"><span style="display: inline-block; margin-right: 4px; width: 12px; padding-top: 3px; background-color: #b9cd96;">&nbsp;</span><span class="bu-name" style="color: #ccc;">商家业务事业部</span></p><p style="line-height: 50%; cursor: pointer;"><span style="display: inline-block; margin-right: 4px; width: 12px; padding-top: 3px; background-color: #89a54e;">&nbsp;</span><span class="bu-name" style="color: #ccc;">信息平台事业部</span></p><p style="line-height: 50%; cursor: pointer;"><span style="display: inline-block; margin-right: 4px; width: 12px; padding-top: 3px; background-color: #ccd5e6;">&nbsp;</span><span class="bu-name" style="color: #ccc;">共享业务事业部</span></p><p style="line-height: 50%; cursor: pointer;"><span style="display: inline-block; margin-right: 4px; width: 12px; padding-top: 3px; background-color: #19c7b9;">&nbsp;</span><span class="bu-name" style="color: #ccc;">技术质量部</span></p><p style="line-height: 50%; cursor: pointer;"><span style="display: inline-block; margin-right: 4px; width: 12px; padding-top: 3px; background-color: #c78419;">&nbsp;</span><span class="bu-name" style="color: #ccc;">小微金服</span></p><p style="line-height: 50%; cursor: pointer;"><span style="display: inline-block; margin-right: 4px; width: 12px; padding-top: 3px; background-color: #aa4643;">&nbsp;</span><span class="bu-name" style="color: #ccc;">数据平台事业部</span></p><p style="line-height: 50%; cursor: pointer;"><span style="display: inline-block; margin-right: 4px; width: 12px; padding-top: 3px; background-color: #19c719;">&nbsp;</span><span class="bu-name" style="color: #ccc;">国际事业部</span></p><p style="line-height: 50%; cursor: pointer;"><span style="display: inline-block; margin-right: 4px; width: 12px; padding-top: 3px; background-color: #c71919;">&nbsp;</span><span class="bu-name" style="color: #ccc;">阿里云事业部</span></p><p style="line-height: 50%; cursor: pointer;"><span style="display: inline-block; margin-right: 4px; width: 12px; padding-top: 3px; background-color: #93a9cf;">&nbsp;</span><span class="bu-name" style="color: #ccc;">聚划算事业部</span></p><p style="line-height: 50%; cursor: pointer;"><span style="display: inline-block; margin-right: 4px; width: 12px; padding-top: 3px; background-color: #88c0d2;">&nbsp;</span><span class="bu-name" style="color: #ccc;">生活服务事业部</span></p><p style="line-height: 50%; cursor: pointer;"><span style="display: inline-block; margin-right: 4px; width: 12px; padding-top: 3px; background-color: #71588f;">&nbsp;</span><span class="bu-name" style="color: #ccc;">一淘及搜索事业部</span></p><p style="line-height: 50%; cursor: pointer;"><span style="display: inline-block; margin-right: 4px; width: 12px; padding-top: 3px; background-color: #f9b186;">&nbsp;</span><span class="bu-name" style="color: #ccc;">无线搜索事业部</span></p><p style="line-height: 50%; cursor: pointer;"><span style="display: inline-block; margin-right: 4px; width: 12px; padding-top: 3px; background-color: #d19392;">&nbsp;</span><span class="bu-name" style="color: #ccc;">CTO</span></p><p style="line-height: 50%; cursor: pointer;"><span style="display: inline-block; margin-right: 4px; width: 12px; padding-top: 3px; background-color: #db843d;">&nbsp;</span><span class="bu-name" style="color: #ccc;">天猫事业部</span></p><p style="line-height: 50%; cursor: pointer;"><span style="display: inline-block; margin-right: 4px; width: 12px; padding-top: 3px; background-color: #8419c7;">&nbsp;</span><span class="bu-name" style="color: #ccc;">阿里妈妈事业部</span></p></div>
+    <div id="legend-slider" style="position: absolute; top: 4px; right: 15px; height: 20px; width: 164px; opacity: 0.75; border: 1px solid rgb(51, 51, 51); border-radius: 3px; padding: 0px; margin: 5px; text-align: center; color: rgb(255, 255, 255); cursor: pointer; z-index: 600; background-color: rgb(68, 68, 68);">∧</div>
+</div>
+
+    <script src="./数据地图_files/ext-all.js"></script>
+    <script src="./数据地图_files/aslan.js"></script>
+    <script src="./数据地图_files/d3.min.js"></script>
+    <script src="./数据地图_files/jquery.js"></script>
+    <script src="./数据地图_files/bootstrap.js"></script>
+    <script>
+      // set bootstrap typeahead do not use default value before use arrowkey
+      //http://stackoverflow.com/questions/9564977/bootstrap-typeahead-dont-autoselect-first-item
+      $.fn.typeahead.Constructor.prototype.render = function (items) {
+        var that = this;
+
+        items = $(items).map(function (i, item) {
+          i = $(that.options.item).attr('data-value', item);
+          i.find('a').html(that.highlighter(item));
+          return i[0];
+        });
+
+        this.$menu.html(items);
+        return this;
+      };
+    </script>
+
+    <script>
+        var global = {};
+
+        var queryParam = {
+          edge: true,
+          keywords: null,
+          limit: 30000
+        }
+        // 检测参数
+        Aslan.parseParam(location.search.slice(1));
+        for (var key in queryParam) {
+          var value = Aslan.queryParam[key];
+          if (value !== 'undefined') {
+            if (key === 'limit') {
+              if (value) {
+                value = Math.max(0, parseInt(value, 10));
+              } else {
+                value = 30000;
+              }
+            }
+            if (key === 'edge'){
+              value = !(value === '0');
+            }
+            if (key === 'keywords' && value) {
+              value = value;
+            }
+            queryParam[key] = value;
+          }
+        }
+        //设置页面，修改初始值
+        for (var key in queryParam) {
+          var value = queryParam[key];
+          if (key === 'edge') {
+            if (value) {
+              $(".show-lines").attr("checked", true);
+            } else {
+              $(".show-lines").attr("checked", false);
+            }
+          } else if (key === 'limit') {
+            $("input.data-number").val(value);
+          } else if (key === 'keywords') {
+            if (value) {
+              $(".typeahead").val(value);
+              //document.location.hash = value;
+            }
+          }
+        }
+    </script>
+
+    <script src="./数据地图_files/sigma.concat.js"></script>
+    <script src="./数据地图_files/parseJson.js"></script>
+    <script src="./数据地图_files/visgexf.js"></script>
+    <script src="./数据地图_files/npmdepgraph.js"></script>
+    <script>
+        var checkLine = function () {
+          if ($(".show-lines").is(':checked')) {
+            // the checkbox was checked
+            $("#sig").find(".sigma_edges_canvas").show();
+          } else {
+            // the checkbox was unchecked
+            $("#sig").find(".sigma_edges_canvas").hide();
+          }
+        };
+        var changeSource = function () {
+          queryParam.limit = parseInt($("input.data-number").val(), 10) || 30000;
+
+          queryParam.limit = Math.max(0, parseInt(queryParam.limit, 10));
+          $(".data-number").val(queryParam.limit);
+
+          //var gexf = '/dataMap/get';
+          var gexf = './数据地图_files/30000.json';
+          var searchWord = '?limit=' + queryParam.limit;
+          /*
+          if ($(".show-lines").is(':checked')) {
+            gexf += '&edge=1';
+          }
+          */
+          var keywords = $(".typeahead").val()
+          if (keywords) {
+            searchWord += '&keywords=' + escape(keywords);
+            queryParam.keywords = keywords;
+          }
+
+          location.search = searchWord;
+          gexf += searchWord;
+
+          visgexf.clear();
+          visgexf = createVisgexf();
+          $(".typeahead").val(keywords);
+
+          visgexf.init('sig', gexf, global.defaultProps, checkLine);
+        };
+
+        //checkbox
+        $(".show-lines").click(checkLine);
+
+        $('input.data-number').keyup(function(e){
+          if(e.keyCode == 13){
+            changeSource();
+          }
+        });
+
+        // 事件先被typeahead组件劫持，如果没有任何可能的匹配结果，再冒泡到这里，搜索。
+        $('.nav').on('keyup', '.typeahead', function(e){
+          if(e.keyCode == 13){
+            changeSource();
+          }
+        });
+        $("#data-map-search").click(changeSource);
+
+
+    </script>
+</body></html>
