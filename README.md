@@ -20,9 +20,9 @@ features:
 
 ![image1](https://raw.githubusercontent.com/jdk137/datamap/master/datamap.png)
 
-![image2](https://raw.githubusercontent.com/jdk137/doubletree/master/datamap2.png)
+![image2](https://raw.githubusercontent.com/jdk137/datamap/master/datamap2.png)
 
-![image3](https://raw.githubusercontent.com/jdk137/doubletree/master/datamap3.png)
+![image3](https://raw.githubusercontent.com/jdk137/datamap/master/datamap3.png)
 
 data format
 ```javascript
