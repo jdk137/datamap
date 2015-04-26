@@ -25,6 +25,8 @@ features:
 ![image1](https://raw.githubusercontent.com/jdk137/datamap/master/datamap.png)
 
 data format
+===
+
 ```javascript
 {
 "bu_lines":["department A","department B"], // group name
