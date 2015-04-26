@@ -18,11 +18,11 @@ features:
 
 4. search and highlight single group
 
-![image1](https://raw.githubusercontent.com/jdk137/datamap/master/datamap.png)
-
 ![image2](https://raw.githubusercontent.com/jdk137/datamap/master/datamap2.png)
 
 ![image3](https://raw.githubusercontent.com/jdk137/datamap/master/datamap3.png)
+
+![image1](https://raw.githubusercontent.com/jdk137/datamap/master/datamap.png)
 
 data format
 ```javascript
